@@ -92,6 +92,92 @@
     </style>
 </head>
 <body>
-    
+
+    <main>
+
+        <h1>Registration</h1>
+
+        <form action="action.php">
+
+            <div class="flex-field">
+                <label for="Username" class="grid-label">Username</label>
+                <input type="text" name="Username" placeholder="Username">
+            </div>
+
+            <div class="flex-field">
+                <label for="Email" class="grid-label">Email</label>
+                <input type="email" name="Email" placeholder="Email"><br>
+            </div>
+
+            <div class="flex-field">
+                <label for="Password" class="grid-label">Password</label>
+                <input type="password" name="Password" id="" placeholder="Password">
+            </div>
+
+            <div class="flex-field">
+                <label for="Cellphone Number" class="grid-label">Cellphone Number</label>
+                <input type="number" name="Cellphone number" id="" placeholder="Cellphone number">
+            </div>
+
+            <div class="flex-field">
+                <label for="Hidden" class="grid-label">Secret</label>
+                <input type="hidden" value="abc1234" name="secret_key"><br>
+            </div>
+
+            <div class="flex-field">
+                <label for="Address" class="grid-label">Address</label>
+                <textarea name="Address" id="" rows="s">
+                </textarea>
+            </div>
+            
+            <div class="flex-field">
+                <label for="Date" class="grid-label">Date</label>
+                <input type="date" name="date" id="">
+            </div>
+
+            <div class="flex-field">
+                <label for="DateTime" class="grid-label">Time</label>
+                <input type="datetime-local" name="datetime" id=""><br>
+            </div>
+
+            <div class="flex-field">
+                <label for="Reset" class="grid-label">Reset</label>
+                <input type="reset" value="Click reset">
+            </div>
+      
+            <div class="flex-field">
+                <label for="Checkbox" class="grid-label">CheckBox</label>
+                <input type="checkbox" name="Skills" id="" value="Programming"><label for="Skills">Programming</label>
+            </div>
+
+            <div class="flex-field">
+                <label for="Checkbox" class="grid-label">CheckBox</label>
+                <input type="checkbox" name="Skill" id="" value="Java" checked><label for="Skills">Java</label>
+            </div>
+
+            <div class="flex-field">
+                <label for="Radio" class="grid-label">Radio</label>
+                <input type="radio" name="Skillss" id="" value="Java" ><label for="Skills">web dev</label>
+            </div>
+
+
+            <div class="flex-field">
+                <label for="File" class="grid-label">File</label>
+                <input type="file" name="file-upload" id="" accept=".jpg, .png, .gif">
+            </div>
+            
+            <select name="Year-level" id="">
+                <option value="1">First year</option>
+                <option value="2">Second Year</option>
+                <option value="3">Third Year</option>
+                <option value="4">Fourth Year</option>
+            </select>
+            <br>
+        <input type="submit" value="Click Submit">
+        
+        </form>
+    </main>
+
 </body>
+
 </html> 
